@@ -2,9 +2,9 @@ spring:
   application:
     name: tennis-booking-api
   datasource:
-    url: jdbc:postgresql://localhost:5432/tennis_booking
+    url: jdbc:postgresql://localhost:5433/tennis_booking
     username: tennis_user
-    password: tennis_pass
+    password: tennis_amaro
   jpa:
     hibernate:
       ddl-auto: validate
@@ -17,7 +17,7 @@ spring:
     locations: classpath:db/migration
 
 server:
-  port: 8080
+  port: 8085
 
 app:
   jwt:
